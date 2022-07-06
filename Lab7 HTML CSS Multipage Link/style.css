@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+ul li{
+    float: left;
+    list-style: none;
+    margin-right: 10px;
+}
+ul li a{
+    text-decoration: none;
+}
