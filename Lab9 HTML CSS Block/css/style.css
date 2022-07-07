@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+#box{
+    width: 500px;
+    height: 200px;
+    background-color: #b32323;
+    margin: 0 auto;
+}
+#box p{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
