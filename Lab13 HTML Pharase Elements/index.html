@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phrase elements in HTML</title>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit <em>amet consectetur </em> adipisicing elit. Excepturi, similique voluptatibus quaerat
+        <mark>illo sint tempore odit dolores</mark> beatae <strong>This is strong text</strong> corporis tempora impedit
+        quia <abbr title="American Standard Code for Information Interchange">ASCII</abbr> iure quae rerum repudiandae
+        vel? Natus, itaque autem?
+    </p>
+    <address>Kathmandu, Nepal, 44600</address>
+
+    <code>
+
+        <pre>
+        using System;
+
+namespace console_abstractclass
+{
+    public abstract class MyClass
+    {
+        public abstract void calculate(double x);
+    }
+    class Sub1 : MyClass
+    {
+        public override void calculate(double x)
+        {
+            Console.WriteLine("Square root is " + Math.Sqrt(x));
+        }
+    }
+    public class Sub2 : MyClass
+    {
+        public override void calculate(double x)
+        {
+            Console.WriteLine("Square is :" + (x * x));
+        }
+    }
+    public class Sub3 : MyClass
+    {
+        public override void calculate(double x)
+        {
+            Console.WriteLine("Cube is :" + (x * x * x));
+        }
+    }
+    class Test
+    {
+        static void Main(string[] args)
+        {
+            Sub1 obj1 = new Sub1();
+            Sub2 obj2 = new Sub2();
+            Sub3 obj3 = new Sub3();
+            obj1.calculate(9);
+            obj2.calculate(9);
+            obj3.calculate(9);
+        }
+    }
+
+}
+</pre>
+    </code>
+
+
+    <kbd>Ctrl</kbd> + <kbd>F2</kbd> is the shortcut key to do Print Preview in Microsoft Word. <br>
+    <q>If you're bad, I'm like your dad.</q> <br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quisquam cum, harum dolore reprehenderit sint
+        debitis nostrum similique possimus neque dicta ad voluptates delectus modi. Pariatur expedita harum magnam
+        itaque.
+    </p>
+    <blockquote>
+        <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolorum excepturi, suscipit accusamus nam
+            ducimus
+            eius aliquid, vitae dicta autem non distinctio unde harum deleniti voluptatibus possimus, omnis quod ab.</q><br>
+            <cite>- Thaha Xaina</cite>
+    </blockquote>
+    
+
+    <dfn>Hello Text</dfn> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, sequi numquam dolor, rem doloremque explicabo dolorum velit quod quidem facilis, ad odit illo distinctio unde repellendus esse animi delectus asperiores!
+
+
+
+
+
+
+</body>
+
+</html>
